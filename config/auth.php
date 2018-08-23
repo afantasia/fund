@@ -67,7 +67,7 @@ return [
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
-            'model' => App\User::class,
+            'model' => App\Models\User::class,
         ],
 
         // 'users' => [
@@ -97,6 +97,7 @@ return [
             'table' => 'password_resets',
             'expire' => 60,
         ],
+        'url' => 'mail.default.reset_email_form',
     ],
 
 ];
