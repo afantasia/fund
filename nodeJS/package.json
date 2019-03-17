@@ -1,0 +1,16 @@
+{
+  "name": "nodeJS",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.16.4",
+    "redis": "^2.8.0",
+    "socket.io": "~2.2.0"
+  }
+}

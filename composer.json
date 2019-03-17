@@ -23,9 +23,9 @@
         "phpmailer/phpmailer": "^6.0",
         "predis/predis": "^1.1",
         "socialiteproviders/kakao": "^3.0",
-        "twinkleroot/social_naver": "=v3.0.1",
+        "suin/php-rss-writer": "^1.5",
         "twinkleroot/laravel-modules": "=2.6.1",
-        "suin/php-rss-writer": "^1.5"
+        "twinkleroot/social_naver": "=v3.0.1"
     },
     "require-dev": {
         "filp/whoops": "~2.0",
