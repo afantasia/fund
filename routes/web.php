@@ -422,3 +422,5 @@ Route::group(['prefix' => 'admin', 'middleware' => ['web', 'auth', 'admin.menu']
     ]);
 
 });
+Route::get('/funds', ['as' => 'users.fund', 'uses' => 'FundController@index']);
+Route::get('/funds/test', ['as' => 'users.fund', 'uses' => 'FundController@test']);
