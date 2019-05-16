@@ -7,6 +7,7 @@
     "require": {
         "php": ">=7.0.0",
         "barryvdh/laravel-debugbar": "~2.0",
+        "brozot/laravel-fcm": "^1.2",
         "doctrine/dbal": "~2.0",
         "eternicode/bootstrap-datepicker": "^1.6",
         "fideloper/proxy": "~3.3",
